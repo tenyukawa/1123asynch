@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans Book Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans SemiBold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans ExtraBold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Cerebri Sans'), url('https://fonts.cdnfonts.com/s/57898/Cerebri Sans Heavy.woff') format('woff');
+}
+
+body {
+    background-image: linear-gradient(rgba(113, 174, 255, 0.426),rgba(218, 167, 255, 0.529));
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+
+
+
+.back {
+    font-size: 22px;
+    font-family: "Cerebri Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    width:200px;
+    height:10px;
+}
+
+.submitbutton {
+    font-size: 16px;
+    font-family: 'Cerebri Sans', sans-serif;
+    font-weight: 400;
+            padding-top:1%;
+            padding-bottom:1%;
+            width:100px;
+}
+
+.text {
+    border-radius:25px;
+    background: white;
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top:40px;
+    padding-top:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: "Cerebri Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    transition: 0.1s ease-in;
+    color: rgb(8, 2, 21);
+}
+
+
+
+.know:hover {
+    color:rgb(206, 40, 40);
+    cursor:grab;
+    transition: 0.1s ease-in;
+}
