@@ -64,6 +64,9 @@
 }
 
 body {
+    position: relative;
+    margin: 0 auto;
+    width: fit-content;
     background: url(wall.jpg);
     background-repeat: no-repeat;
     background-size:100%;
